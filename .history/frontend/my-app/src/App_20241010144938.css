@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+  color:white;
+}
+
+body{
+  background-color:black;
+}
+
+.log{
+  color:green;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: skyblue;
+  border-radius: 5px;
+  height:25px;
+  width:50px;
+}

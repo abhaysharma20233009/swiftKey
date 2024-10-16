@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  color:white;
+}
+
+body{
+  background-color:black;
+}
+
+.log{
+  color:black;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: skyblue;
+  border-radius: 10px;
+  height:50px;
+  width:200px;
+  justify-self: end;
+  font-size: x-large;
+}
+
+
+
+.para{
+  width:10%;
+}

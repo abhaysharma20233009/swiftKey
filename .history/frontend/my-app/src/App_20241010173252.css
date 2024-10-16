@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  color:white;
+}
+
+body{
+  background-color:black;
+}
+
+.log{
+  color:black;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: skyblue;
+  border-radius: 10px;
+  height:50px;
+  width:200px;
+  justify-self: end;
+  font-size: x-large;
+}
+
+
+
+
+.in{
+  border-radius:20px;
+  font-size: 24px;
+  width: 60%;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.hea{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  margin-left:25%;
+  background-color: lightgray; 
+  font-size: 24px;
+  background-color:green;
+  width:50%;
+  height:50px;
+  border-radius:30px;
+  text-align: center;
+}
+
+.lo{
+  text-align:center;
+}
+.Timer{
+  height:20px;
+  font-size:30px;
+}
