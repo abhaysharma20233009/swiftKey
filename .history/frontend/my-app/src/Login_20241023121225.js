@@ -18,7 +18,7 @@ const Login = () => {
 
     const log = async () => {
         try {
-          
+            navigate('/', { state: { username,email } });
             const response = await fetch('http://localhost:7000/login', {
                 method: 'POST',
                 headers: {
@@ -33,7 +33,6 @@ const Login = () => {
                 alert(errorData.message || errorData.error);
                 return;
             }
-            navigate('/', { state: { username,email } });
             // Reset fields
             setUsername('');
             setPassword('');
